@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Sistema de estoque</title>
+
+<link rel="icon" href="Imagens/StockIcon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="divCadastro">
+		<h1 class="tituloPaginas">Novo produto</h1>
+
+		<form name="frmProduto" action="insert" class="frmProduto">
+
+			<table class="frmTable">
+				<tr>
+					<td><input type="text" name="nome" placeholder="Nome"
+						class="Caixa1"></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="tipo" placeholder="Tipo"
+						class="Caixa1"></td>
+				</tr>
+
+				<tr>
+					<td><input type="number" name="quantidade"
+						placeholder="Quantidade" class="Caixa1"></td>
+				</tr>
+			</table>
+
+			<input type="button" value="Adicionar" class="Botao1"
+				onclick="validar()">
+
+		</form>
+	</div>
+	<script src="scripts/validar.js"></script>
+
+</body>
+</html>

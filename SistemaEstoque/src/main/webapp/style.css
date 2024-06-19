@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body {
+	background-color: #0F79BA;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: #66bbff;
+	text-shadow: 2px 2px black;
+}
+
+.divIndex {
+	margin-top: 250px;
+	text-align: center;
+}
+
+.divMain {
+	text-align: center;
+	align-content: center;
+}
+
+.divCadastro {
+	margin-top: 250px; text-align : center;
+	align-content: center;
+	text-align: center;
+}
+
+.frmProduto {
+	text-align: center;
+	align-content: center;
+}
+
+.Botao1 {
+	text-decoration: none;
+	text-align: center;
+	background-color: #003C5F;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 1px groove white;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #7B0000;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border: 1px groove white;
+	border-radius: 5px;
+}
+
+.Caixa1 {
+	background-color: #77B2E8;
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 6px;
+	color: black;
+}
+
+.frmTable {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#tabela {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	margin-top: 50px
+}
+
+#tabela th {
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+	align-content: center;
+	background-color: #66bbff;
+	color: black;
+}
+
+#tabela td {
+	background-color: #77B2E8;
+	border: 2px solid black;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	align-content: center;
+}
+
+.tituloPaginas {
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
